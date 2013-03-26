@@ -25,7 +25,11 @@ casper.then(function() {
 });
 
 casper.then(function() {
-	this.test.assertTextExists('This text');
+	this.test.assertTextExists('This is not here');
+});
+
+casper.then(function() { 
+	this.clickLabel('Hello', 'button');
 });
 
 casper.run();

@@ -16,3 +16,7 @@ a {
 	float: right;
 }
 
+.clear 
+{
+	clear:both;
+}
